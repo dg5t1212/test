@@ -5,6 +5,10 @@ import java.util.Arrays;
 
 // 123
 public class Sort {
+
+private String testMaster;
+private String test123;
+
     public static <T extends Comparable<T>> T[] sorted(T[] array) {
         T[] arr = Arrays.copyOf(array, array.length);
         sort(arr, 0, arr.length - 1);
