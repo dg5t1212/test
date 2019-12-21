@@ -2,6 +2,8 @@ package cc.openhome;
 
 import java.util.Arrays;
 
+
+// 123
 public class Sort {
     public static <T extends Comparable<T>> T[] sorted(T[] array) {
         T[] arr = Arrays.copyOf(array, array.length);
